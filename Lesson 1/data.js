@@ -62,4 +62,11 @@ console.log(middleNameProm);
 let date = prompt('Put your date of birth down');
 console.log(date);
 
-// let random = document.getElementsByClassName('random');
+//--------------------------//
+let random = document.querySelector('div');
+random.innerText = 'test';
+
+let msg = 'random text';
+let p = document.createElement('p');
+p.innerText = msg;
+document.body.append(p)
