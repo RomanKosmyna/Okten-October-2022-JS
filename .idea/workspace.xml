@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8370ce6-3efb-48ed-abfd-9fd778318252" name="Changes" comment="Lesson 1: Add Homework">
+    <list default="true" id="e8370ce6-3efb-48ed-abfd-9fd778318252" name="Changes" comment="Lesson 1: Add Homework (Update)">
+      <change afterPath="$PROJECT_DIR$/Lesson 2/Homework/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 2/Homework/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson 1/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 1/data.js" afterDir="false" />
     </list>
@@ -31,15 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript"
+    ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +58,10 @@
       <option name="presentableId" value="Default" />
       <updated>1667254436416</updated>
       <workItem from="1667254437708" duration="3031000" />
-      <workItem from="1667302346066" duration="363000" />
+      <workItem from="1667302346066" duration="3387000" />
+      <workItem from="1667390995400" duration="4696000" />
+      <workItem from="1667424482177" duration="210000" />
+      <workItem from="1667424702608" duration="5785000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1: Add Homework">
       <created>1667257570963</created>
@@ -58,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667257570963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson 1: Add Homework (Update)">
+      <created>1667302748298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667302748298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 1: Add Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 1: Add Homework" />
+    <MESSAGE value="Lesson 1: Add Homework (Update)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 1: Add Homework (Update)" />
   </component>
 </project>

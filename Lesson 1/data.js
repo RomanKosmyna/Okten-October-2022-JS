@@ -59,7 +59,7 @@ console.log(name);
 let middleNameProm = prompt('Put your middle name down');
 console.log(middleNameProm);
 
-let date = prompt('Put your date of birth down');
+let date = +prompt('Put your date of birth down');
 console.log(date);
 
 //--------------------------//
