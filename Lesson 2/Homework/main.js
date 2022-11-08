@@ -60,7 +60,7 @@ let eragon3 = {
     title: 'eragon3',
     pageCount: 550,
     genre: 'fantasy'
-}
+};
 console.log(eragon3);
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив.
 // Кожен автор має поля name,age
@@ -72,7 +72,7 @@ let theEdgeChronicles = {
         {name: 'Christopher', age: 42},
         {name: 'Joe', age: 33}
     ]
-}
+};
 console.log(theEdgeChronicles)
 // console.log(theEdgeChronicles.authors[1].name);
 let theEdgeChronicles2 = {
@@ -84,7 +84,7 @@ let theEdgeChronicles2 = {
         {name: 'John', age: 77},
         {name: 'Steven', age: 44}
     ]
-}
+};
 console.log(theEdgeChronicles2)
 let theEdgeChronicles3 = {
     title: 'theDescenders',
@@ -94,7 +94,7 @@ let theEdgeChronicles3 = {
         {name: 'Robert', age: 80},
         {name: 'Andrii', age: 30}
     ]
-}
+};
 console.log(theEdgeChronicles3)
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password.
 // Вивести в консоль пароль кожного користувача
@@ -109,7 +109,7 @@ let superUsersArray = [
     {name: 'Simba', username: "simba94", password: "theLionKing"}, //8
     {name: 'Aragorn', username: "dwarf", password: "whereIsTheRing14"}, //9
     {name: 'Borat', username: "BorikSagi", password: "IhaveBoughtMyWife"} //10
-]
+];
 // console.log(superUserArray[0].password);
 // console.log(superUserArray[1].password);
 // console.log(superUserArray[2].password);
@@ -126,3 +126,14 @@ console.log(superUsersArray[6].password);
 console.log(superUsersArray[7].password);
 console.log(superUsersArray[8].password);
 console.log(superUsersArray[9].password);
+
+
+
+let i = 0;
+let x = i;
+x = x + 2;
+console.log(i);
+console.log(x);
+
+let arr1 = {name:'marik', id:1}
+console.log(arr1);
