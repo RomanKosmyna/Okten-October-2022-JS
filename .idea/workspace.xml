@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8370ce6-3efb-48ed-abfd-9fd778318252" name="Changes" comment="Lesson 3: Add Homework">
+    <list default="true" id="e8370ce6-3efb-48ed-abfd-9fd778318252" name="Changes" comment="Lesson 3: Add Homework (Updated)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson 3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 3/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +31,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JavaScript"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaScript&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +71,8 @@
       <workItem from="1667849063635" duration="7972000" />
       <workItem from="1667901774954" duration="36000" />
       <workItem from="1667901913391" duration="611000" />
-      <workItem from="1667906296709" duration="12017000" />
+      <workItem from="1667906296709" duration="12045000" />
+      <workItem from="1667921477330" duration="142000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1: Add Homework">
       <created>1667257570963</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667915470164</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson 3: Add Homework (Updated)">
+      <created>1667921277159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921277159</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +131,7 @@
     <MESSAGE value="Lesson 1: Add Homework (Update)" />
     <MESSAGE value="Lesson 2: Add Homework" />
     <MESSAGE value="Lesson 3: Add Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3: Add Homework" />
+    <MESSAGE value="Lesson 3: Add Homework (Updated)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3: Add Homework (Updated)" />
   </component>
 </project>

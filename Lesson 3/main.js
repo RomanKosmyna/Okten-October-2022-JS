@@ -25,24 +25,24 @@ if (a.length !== 0) {
 // - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
 let time = 16;
-if (time <= 15) {
+if (time >= 0 && time <= 15) {
     console.log('first part');
-} else if (time <= 30) {
+} else if (time >=16 && time <= 30) {
     console.log('second part');
-} else if (time <= 45) {
+} else if (time >= 31 && time <= 45) {
     console.log('third part');
-} else if (time <= 59) {
+} else if (time >=46 && time <= 59) {
     console.log('fourth part');
 } else {
     console.log('error');
 }
 // - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
 let day = 30;
-if (day <= 10) {
+if (day >= 1 && day <= 10) {
     console.log('first');
-} else if (day <= 20) {
+} else if (day >= 11 && day <= 20) {
     console.log('second');
-} else if (day <= 31) {
+} else if (day >= 21 && day <= 31) {
     console.log('third');
 } else {
     console.log('error');
