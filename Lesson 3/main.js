@@ -112,9 +112,6 @@ if (firstNumber > secondNumber) {
 //     x1 = 'default';
 // };
 
-// let x1 = ''? true : 'default';
-// console.log(x1)
-
 // let x1;
 // if (x1) {
 //     alert(x1);
@@ -130,3 +127,8 @@ if (firstNumber > secondNumber) {
 // } else if (x1 === undefined) {
 //
 // }
+let x1 = prompt() || 'default';
+console.log(x1)
+
+// let x1 = ''? true : 'default';
+// console.log(x1)

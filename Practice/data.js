@@ -72,3 +72,5 @@ let object = {
 // let a1 = 0;
 // let b1 = ++a1;
 // console.log(a1, b1)  // a=1   b=1
+let x1 = '';
+console.log(x1? true : 'default');
