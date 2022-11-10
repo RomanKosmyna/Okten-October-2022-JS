@@ -12,37 +12,62 @@
     }
     .display {
         display: inline-block;
-        margin: 0 60px;
+        margin: 10px 15px;
     }
     .first-task {
+        font-weight: bold;
+        font-family: "Arial Narrow";
+        padding: 7px;
         color: red;
         background: black;
     }
     .second-task {
-        color: blue;
-        background: antiquewhite;
+        font-weight: bold;
+        font-family: "Arial Narrow";
+        padding: 7px;
+        color: black;
+        background: red;
     }
     .wiki {
         display: inline-block;
-        background: lightgray;
-        margin: 0 63px;
-        color: darkgoldenrod;
+        background: linear-gradient(mediumpurple, deepskyblue);
+        margin: 10px;
+        color: black;
+    }
+    .wiki>h1 {
+        padding: 5px;
+    }
+    .number-block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .numbers {
+        box-sizing: border-box;
+        border: 5px solid darkred;
+        text-align: center;
+        width: 15%;
         background: seashell;
         display: inline-block;
-        margin: 0 30px;
+        margin: 10px 30px 0;
         color: darkred;
     }
     .ul {
-        background: lightcyan;
+        box-sizing: border-box;
         display: flex;
+        justify-content: space-around;
         text-decoration: none;
     }
     li {
-        font-size: 20px;
+        box-sizing: border-box;
+        border: 4px solid black;
+        border-radius: 10%;
+        background: lightcyan;
+        font-size: 25px;
+        font-weight: bold;
         margin: 0 40px;
-        color: darkmagenta;
+        padding: 7px;
+        color: red;
         list-style-type: none;
     }
     .main-block {
@@ -50,23 +75,48 @@
         justify-content: space-around;
     }
     .product-card {
+        width: 270px;
+        height: 350px;
         text-align: center;
         background: darkcyan;
         border-radius: 16%;
     }
     .product-title {
         color: azure;
+        text-transform: uppercase;
     }
     .product-image {
         width: 250px;
+        height: 250px;
+        border-radius: 10%;
+    }
+    .main {
+        width: 300px;
+    }
+    .main>p {
+        padding: 10px;
+        font-family: Algerian;
+        font-size: 20px;
+    }
+    .first-span {
+        color: lightcyan;
+    }
+    .second-span {
+        color: yellow;
+    }
+    .third-span {
+        color: darkblue;
     }
     .true {
+        border-radius: 5%;
         background: lightcoral;
     }
     .false {
+        border-radius: 5%;
         background: yellowgreen;
     }
     .age {
+        border-radius: 5%;
         background: sandybrown;
     }
 </style>
