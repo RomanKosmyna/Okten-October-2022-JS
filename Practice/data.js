@@ -21,16 +21,16 @@
 // console.log(arr[1], [1]);
 
 // object !!!!!!! //
-let object = {
-    name: 'Roki',
-    age: 18,
-    id: 'Roko',
-    type: 'parrot',
-    secondObj: {
-        name: 'name',
-        age: 'two'
-    }
-};
+// let object = {
+//     name: 'Roki',
+//     age: 18,
+//     id: 'Roko',
+//     type: 'parrot',
+//     secondObj: {
+//         name: 'name',
+//         age: 'two'
+//     }
+// };
 // console.log(object.secondObj.age);
 
 // ----------------------- //
@@ -40,7 +40,7 @@ let object = {
 // console.log(i);
 // console.log(x);
 
-// let arr1 = {name:'marik', id:1}
+// let arr1 = {name:'maryan', id:1}
 // console.log(arr1);
 // let arr2 = arr1;
 // arr2.age = 232;
@@ -72,5 +72,26 @@ let object = {
 // let a1 = 0;
 // let b1 = ++a1;
 // console.log(a1, b1)  // a=1   b=1
-let x1 = '';
-console.log(x1? true : 'default');
+// let x1 = '';
+// console.log(x1? true : 'default');
+
+let a = 1;
+let b = 2;
+
+console.log(a > b);
+console.log(a <= b);
+console.log(a == b);
+console.log(a === b);
+console.log(a != b);
+console.log(a !== b);
+console.log(!!a);
+// ------------------- //
+console.log('' + 1);
+console.log(+'123');
+console.log(!!'test');
+console.log(!'test');
+// ------------------- //
+let value = null;
+// String(value);
+console.log(value)
+value.toString();
