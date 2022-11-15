@@ -182,13 +182,13 @@ let books = [
     {name: 'eragon3qqwewe', pageCount: 400, authors: ['John3'], genre: 'fantasy'}
 ];
 // -знайти наібльшу книжку.
-let count = books[0];
+let bookCount = books[0];
 for (const book of books) {
-    if (book.pageCount > count.pageCount) {
-        count = book;
+    if (book.pageCount > bookCount.pageCount) {
+        bookCount = book;
     }
 }
-console.log(count)
+console.log(bookCount)
 // - знайти книжку/ки з найбільшою кількістю жанрів
 // debugger;
 let genreCount = books[0];
