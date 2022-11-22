@@ -95,8 +95,29 @@ smallestNum(smallNumArray);
 //     return arguments[0] + arguments[1] + arguments[2];
 // }
 // console.log(addNum(1, 2, 10));
+// function addNum(array) {
+//     return array[0] + array[1] + array[2];
+// }
+// let numArr = [1, 2, 10];
+// console.log(addNum(numArr));
+let numArr = [1, 2, 3, 4];
+let sum = 0;
+// function addNum(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] > test) {
+//             test += array[i];
+//             console.log(test)
+//         } else if (array.push()) {
+//             test += array[i];
+//             console.log(test);
+//         }
+//     }
+// }
+// addNum(numArr);
 function addNum(array) {
-    return array[0] + array[1] + array[2];
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+    }
+    return sum;
 }
-let numArr = [1, 2, 10];
 console.log(addNum(numArr));
