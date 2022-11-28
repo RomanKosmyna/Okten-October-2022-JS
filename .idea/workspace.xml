@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8370ce6-3efb-48ed-abfd-9fd778318252" name="Changes" comment="Lesson 5 Homework">
-      <change afterPath="$PROJECT_DIR$/Lesson 5/Additional tasks 5/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 5/Additional tasks 5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 5/Additional tasks4/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 5/Additional tasks4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 6/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 6/index.html" afterDir="false" />
+    <list default="true" id="e8370ce6-3efb-48ed-abfd-9fd778318252" name="Changes" comment="Lesson 6 Homework">
+      <change afterPath="$PROJECT_DIR$/Lesson 6/Additonal tasks/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 6/Additonal tasks/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 5/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 5/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,13 @@
       <workItem from="1669063653739" duration="3856000" />
       <workItem from="1669074716577" duration="8162000" />
       <workItem from="1669082962488" duration="25000" />
-      <workItem from="1669117647993" duration="2350000" />
+      <workItem from="1669117647993" duration="2652000" />
+      <workItem from="1669152295471" duration="3021000" />
+      <workItem from="1669240599629" duration="20000" />
+      <workItem from="1669325478333" duration="4176000" />
+      <workItem from="1669487150234" duration="9400000" />
+      <workItem from="1669563575202" duration="5635000" />
+      <workItem from="1669648916658" duration="8880000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1: Add Homework">
       <created>1667257570963</created>
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668513886323</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lesson 6 Homework">
+      <created>1669120164767</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669120164767</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +213,7 @@
     <MESSAGE value="Lesson 4 Homework: Added design" />
     <MESSAGE value="Lesson 4 Homework: Added all additional" />
     <MESSAGE value="Lesson 5 Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 5 Homework" />
+    <MESSAGE value="Lesson 6 Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 6 Homework" />
   </component>
 </project>
