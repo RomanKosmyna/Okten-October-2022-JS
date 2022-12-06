@@ -96,30 +96,15 @@
 // someeMAIL@i.ua
 // some.email@gmail.com
 // function validator(email) {
-//     // let d = email.indexOf('.')
-//     let i = email.indexOf('@');
-//     let indexOfDot = email.indexOf('.' > i)
-//     if (i > 8 && email.includes('@') && email.includes('.') && (email.toUpperCase() || email.toLowerCase())) {
+//     if (email.includes('@') && (email.indexOf('@') !== 0 && email.indexOf('@') >= 6) &&
+//         email.slice(email.indexOf('@'), email.indexOf('@') + 2).includes('.') === false) {
 //         console.log(email)
 //     } else {
-//         throw new Error ('Dogshit code :)');
+//         throw new Error('Dogshit email!')
 //     }
 // }
-// validator('qqqWWqqqWW.@')
-// function validator(email) {
-//     let indexOfRavlik = email.indexOf('@');
-//     let indexOfDot = email.lastIndexOf('.');
-//     let sub = email.substring(indexOfRavlik, indexOfDot);
-//     if ((indexOfRavlik > 0) &&
-//         email.includes( '@') &&
-//         email.includes('.') &&
-//         (email.toUpperCase() || email.toLowerCase()))  {
-//         console.log(email)
-//     } else {
-//         throw new Error ('Error!!!!!!');
-//     }
-// }
-// validator('qqqqqqqq.@i.ua')
+//         validator('someeMAIL@i.ua')
+
 // Приміткa
 // Для тих, хто дуже розумний, та почне використовувати регулярні вирази одразу "ні". Своїм мозком подумайте над протоколом, з регулярками будете потім бавитись.
 
@@ -240,22 +225,47 @@
 // console.log(cutString(str, 5));
 
 // -стоврити масив книжок (назва, кількість сторінок, автори , жанри).
-const books = [
-    {name: 'LOL', pageCount: 200, authors: 'John', genre: 'fantasy'},
-    {name: 'Feeweqew', pageCount: 150, authors: 'Sasha', genre: 'detective'},
-    {name: 'Dweqe', pageCount: 300, authors: 'Mary', genre: 'comedy'},
-    {name: 'Zaww', pageCount: 450, authors: ['Ivan', 'George'], genre: 'romance'}
-]
-// -знайти наібльшу книжку.
-let max = 0;
-for (const book of books) {
-    if (max < book.pageCount) {
-        max = book.pageCount;
-    }
-}
+// const books = [
+//     {name: 'qqqqqw', pageCount: 200, authors: 'John', genre: 'fantasy'},
+//     {name: 'Feeweqewwwww', pageCount: 150, authors: 'Sasha', genre: 'detective'},
+//     {name: 'Dweqe', pageCount: 300, authors: 'Mary', genre: 'comedy'},
+//     {name: 'Zaww', pageCount: 450, authors: ['Ivan', 'George'], genre: ['romance', 'not romance']}
+// ]
+// -знайти найбільшу книжку.
+// let max = 0;
+// for (const book of books) {
+//     if (max < book.pageCount) {
+//         max = book.pageCount;
+//     }
+// }
 // - знайти книжку/ки з найбільшою кількістю жанрів
 
+
 // - знайти книжку/ки з найдовшою назвою
+// let longestName = '';
+// for (const book of books) {
+//     if (book.name.length > longestName.length) {
+//         longestName = book.name;
+//     }
+// }
+// for (const book of books) {
+//     if (book.name === longestName) {
+//         console.log(book)
+//     }
+// }
 // - знайти книжку/ки які писали 2 автори
+// books.forEach(function (book) {
+//     if (book.authors.length === 2) {
+//         console.log(book)
+//     }
+// })
+
 // - знайти книжку/ки які писав 1 автор
+// books.filter(function (book) {
+//     if (typeof  book.authors !== 'object') {
+//         console.log(book)
+//     }
+// })
+
 // - вісортувати книжки по кількості сторінок по зростанню
+// console.log(books.sort((a, b) => a.pageCount - b.pageCount));
