@@ -1,0 +1,95 @@
+/*body {*/
+/*    margin: 0;*/
+/*    background: lightgoldenrodyellow;*/
+/*}*/
+
+/*.course-style {*/
+/*    display: inline-block;*/
+/*    width: 40%;*/
+/*    box-sizing: border-box;*/
+/*    background: azure;*/
+/*    margin: 30px;*/
+
+/*}*/
+
+/*h2 {*/
+/*    margin: 0;*/
+/*}*/
+
+/*.title-style {*/
+/*    background: darkred;*/
+/*    color: azure;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.block {*/
+/*    display: inline-block;*/
+/*    color: darkred;*/
+/*}*/
+
+/*.month-style {*/
+/*    width: 45%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.month-style > h3 {*/
+/*    display: inline-block;*/
+/*    border-top: 7px solid darkred;*/
+/*    margin-left: 15px;*/
+/*}*/
+
+/*.hour-style {*/
+/*    width: 50%;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*.hour-style > h3 {*/
+/*    display: inline-block;*/
+/*    border-bottom: 7px solid darkred;*/
+/*}*/
+
+/*ul {*/
+/*    padding: 25px;*/
+/*    margin: 0;*/
+/*    background: darkred;*/
+/*    list-style-type: none;*/
+/*}*/
+
+/*li {*/
+/*    color: azure;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.wrap {*/
+/*    height: 30px;*/
+/*    background: red;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*#text {*/
+/*    height: 30px;*/
+/*    background: red;*/
+/*}*/
+
+input {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
+    border: 3px solid black;
+}
+
+.btn {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.main-style {
+    width: 600px;
+    background: lightblue;
+}
+
+.table-style {
+    border: 2px solid black;
+}

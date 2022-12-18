@@ -23,6 +23,22 @@
 //         bs: 'harness real-time e-markets'
 // }
 // }
+//------
+// function User(id, name, username, email, address, phone, website, company) {
+//     this.id = id;
+//     this.name = name;
+//     this.username = username;
+//     this.email = email;
+//     this.address = address;
+//     this.phone = phone;
+//     this.company = company;
+// }
+// let user = new User(1, 'Leanne Graham', 'Bret', 'Sincere@april.biz',
+//     {street: 'Kulas Light', suite: 'Apt. 556', city: 'Gwenborough', zipcode: '92998-3874', geo:{lat: '-37.3159', lng: '81.1496'}},
+//     '1-770-736-8031 x56442', 'hildegard.org', {name: 'Romaguera-Crona', catchPhrase: 'Multi-layered client-server' +
+//             ' neural-net', bs: 'harness real-time e-markets'})
+// console.log(user)
+
 
 
 // -  Створити функцію конструктор / клас  який описує об'єкт тегу
@@ -56,3 +72,15 @@
 // ]
 //
 // }
+// class Description {
+//         constructor(titleOfTag, action, attrs) {
+//             this.titleOfTag = titleOfTag;
+//             this.action = action;
+//             this.attrs = attrs;
+//         }
+// }
+// let descriptionOftagA = new Description('a', 'The <\a> tag defines a hyperlink, which is used to link from one page' +
+//     ' to another.', [{titleOfAttr: 'accesskey', actionOfAttr: 'Переход к области с помощью комбинации клавиш'},
+//     {titleOfAttr: 'accesskey2', actionOfAttr: 'Переход к области с помощью комбинации клавиш2'},
+//     {titleOfAttr: 'accesskey3', actionOfAttr: 'Переход к области с помощью комбинации клавиш3'}]);
+// console.log(descriptionOftagA)

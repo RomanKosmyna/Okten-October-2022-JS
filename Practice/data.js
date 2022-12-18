@@ -254,3 +254,8 @@
 //
 // };
 // console.log(rps("scissors", 'paper'));
+// function solution(str){
+//    return str.split('').sort((a,b) => b - a).reverse().join('')
+// }
+//
+// console.log(solution('word'));

@@ -1,0 +1,152 @@
+body {
+    background: #172D13;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: inline-block;
+    color: #D76F30;
+    text-align: center;
+    border-bottom: 7px solid #6BB77B;
+}
+
+.h1-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.user-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.value-user-span {
+    color: red;
+}
+
+.user-info-link {
+    font-size: 20px;
+    display: block;
+    color: #D76F30;
+    text-decoration: none;
+}
+
+.user-info-link:hover {
+    color: darkorange;
+}
+
+.user-fullInfo-block {
+    margin-top: 5px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.post-btn {
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: #D76F30;
+    border: none;
+    border-radius: 10px;
+}
+
+.post-btn:hover {
+    background: darkorange;
+    color: black;
+}
+
+.post-btn-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.post-title-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-top: 3px solid #D76F30;
+    padding: 5px;
+}
+
+.post-title-block {
+    width: 19%;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    border-bottom: 3px solid #6BB77B;
+}
+
+.post-link {
+    display: block;
+    color: #D76F30;
+    text-decoration: none;
+}
+
+.post-link:hover {
+    color: darkorange;
+}
+
+.full-post-info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.full-post-info-block > h2 {
+    font-size: 26px;
+}
+
+.full-post-info-block > h3, h4 {
+    color: #D76F30;
+}
+
+.full-post-info-block > p {
+    font-size: 20px;
+    font-family: "Arial Black", 'sans-serif';
+}
+
+.full-post-info-block > h2, h3, h4, h5 {
+    margin: 5px;
+}
+
+.full-post-info-block > h5 {
+    font-size: 30px;
+    color: #D76F30;
+}
+
+.comment-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.comment-block {
+    width: 23%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px solid #6BB77B;
+}
+
+.comment-block > p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
