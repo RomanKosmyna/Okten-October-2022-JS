@@ -1,20 +1,7 @@
-// let url = new URL(location.href);
-// let postData = url.searchParams.get('data');
-// // console.log(parsedData);
-// let postDiv = document.createElement('div');
-// postDiv.classList.add('full-post-info-block');
-// let h2 = document.createElement('h2');
-// let h3 = document.createElement('h3');
-// let h4 = document.createElement('h4');
-// let p = document.createElement('p');
-// let commentSection = document.createElement('h5');
-
 let urlUser = new URL(location.href);
 let idUser = urlUser.searchParams.get('userID');
-
 let urlPost = new URL(location.href);
 let idPost = urlPost.searchParams.get('postID');
-
 fetch(`https://jsonplaceholder.typicode.com/users/${idUser}/posts`)
     .then(response => response.json())
     .then(post => {
