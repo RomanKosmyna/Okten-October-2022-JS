@@ -19,7 +19,6 @@ fetch(api + id)
                 document.body.appendChild(div);
 
                 for (const key in user[userInfo]) {
-
                     if (typeof user[userInfo][key] !== 'object') {
                         let keyDiv = document.createElement('div');
                         keyDiv.innerText = `${key}: ${user[userInfo][key]}`;
@@ -35,8 +34,8 @@ fetch(api + id)
                             keyDiv.appendChild(geoDiv);
                         }
                     }
-
                 }
+
             }
 
         }
@@ -55,13 +54,14 @@ fetch(api + id)
                 .then(userPostArray => {
                     let postTitleContainer = document.createElement('div');
                     postTitleContainer.classList.add('post-title-container');
+
                     for (const userPost in userPostArray) {
                         let titleDiv = document.createElement('div');
                         titleDiv.classList.add('post-title-block');
                         titleDiv.innerText = `Post title: ${userPostArray[userPost].title}`;
                         let aForPosts = document.createElement('a');
                         aForPosts.classList.add('post-link');
-                        aForPosts.href = `../post details/post-details.html?data=` + JSON.stringify(userPostArray[userPost]);
+                        aForPosts.href = `../post details/post-details.html?postID=${userPostArray[userPost].id}&userID=${userPostArray[userPost].userId}`;
                         aForPosts.innerText = `For full post information, click here.`;
                         titleDiv.appendChild(aForPosts);
                         document.body.appendChild(postTitleContainer);

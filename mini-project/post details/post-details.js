@@ -1,25 +1,34 @@
-let url = new URL(location.href);
-let postData = url.searchParams.get('data');
-let parsedData = JSON.parse(postData);
+// let url = new URL(location.href);
+// let postData = url.searchParams.get('data');
+// // console.log(parsedData);
+// let postDiv = document.createElement('div');
+// postDiv.classList.add('full-post-info-block');
+// let h2 = document.createElement('h2');
+// let h3 = document.createElement('h3');
+// let h4 = document.createElement('h4');
+// let p = document.createElement('p');
+// let commentSection = document.createElement('h5');
 
-let postDiv = document.createElement('div');
-postDiv.classList.add('full-post-info-block');
-let h2 = document.createElement('h2');
-let h3 = document.createElement('h3');
-let h4 = document.createElement('h4');
-let p = document.createElement('p');
-let commentSection = document.createElement('h5');
+let urlUser = new URL(location.href);
+let idUser = urlUser.searchParams.get('userID');
 
-h2.innerText = `Title: ${parsedData.title}`;
-h3.innerText = `User ID: ${parsedData.id}`;
-h4.innerText = `ID: ${parsedData.id}`;
-p.innerText = `${parsedData.body}`;
-commentSection.innerText = `Comments:`;
+let urlPost = new URL(location.href);
+let idPost = urlPost.searchParams.get('postID');
 
-postDiv.append(h2, h3, h4, p, commentSection);
-document.body.appendChild(postDiv);
-
-fetch(`https://jsonplaceholder.typicode.com/posts/${parsedData.id}/comments`)
+fetch(`https://jsonplaceholder.typicode.com/users/${idUser}/posts`)
+    .then(response => response.json())
+    .then(post => {
+        for (const postElement of post) {
+            if(postElement.id === +idPost) {
+                for (const key in postElement) {
+                    let postInfo = document.createElement('div');
+                    postInfo.classList.add('post-info');
+                    postInfo.innerText = `${key}: ${postElement[key]}`;
+                    document.body.appendChild(postInfo);
+                }
+            }
+        }
+        fetch(`https://jsonplaceholder.typicode.com/posts/${idPost}/comments`)
     .then(response => response.json())
     .then(commentArray => {
         let commentContainer = document.createElement('div');
@@ -36,6 +45,8 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${parsedData.id}/comments`)
             document.body.appendChild(commentContainer);
         }
     })
+    })
+
 //     На странице post-details.html:
 // 7 Вивести всю, без виключення, інформацію про об'єкт post на який клікнули . +
 // 8 Нижчє інформаці про пост, вивести всі коментарі поточного поста            +

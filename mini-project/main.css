@@ -102,11 +102,12 @@ h1 {
     color: darkorange;
 }
 
-.full-post-info-block {
+.post-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
+    font-size: 22px;
 }
 
 .full-post-info-block > h2 {
