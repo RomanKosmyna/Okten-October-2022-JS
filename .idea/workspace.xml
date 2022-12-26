@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8370ce6-3efb-48ed-abfd-9fd778318252" name="Changes" comment="Mini project (added changes)">
+      <change afterPath="$PROJECT_DIR$/additional 12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional 12/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional 12/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional 12/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini-project/post details/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/post details/post-details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +151,21 @@
       <workItem from="1671391869070" duration="941000" />
       <workItem from="1671449541125" duration="5196000" />
       <workItem from="1671454848336" duration="125000" />
-      <workItem from="1671456218425" duration="69000" />
+      <workItem from="1671456218425" duration="157000" />
+      <workItem from="1671552195370" duration="1000" />
+      <workItem from="1671552315319" duration="1000" />
+      <workItem from="1671558095506" duration="941000" />
+      <workItem from="1671571061014" duration="40000" />
+      <workItem from="1671572455453" duration="200000" />
+      <workItem from="1671633846309" duration="116000" />
+      <workItem from="1671634454734" duration="57000" />
+      <workItem from="1671634730904" duration="11000" />
+      <workItem from="1671634767905" duration="87000" />
+      <workItem from="1671816051761" duration="2524000" />
+      <workItem from="1671839846570" duration="1845000" />
+      <workItem from="1671883016094" duration="10000" />
+      <workItem from="1671892083175" duration="1721000" />
+      <workItem from="1672045398273" duration="14402000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1: Add Homework">
       <created>1667257570963</created>
@@ -262,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671454775317</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Mini project (added changes)">
+      <created>1671456329718</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671456329719</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
